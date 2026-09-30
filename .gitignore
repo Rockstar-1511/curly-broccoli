@@ -1,0 +1,24 @@
+# Personal settings (emergency phone number) - never commit
+firmware/health_monitor/config.h
+
+# Build outputs
+build/
+*.hex
+*.elf
+*.o
+test/test_pulse
+test/test_pulse.exe
+test/*.csv
+
+# Session logs (may contain personal health data)
+data/session_*.csv
+data/session_*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
